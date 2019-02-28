@@ -1,0 +1,40 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Search from './Search';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Container from './Container';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div>
+          <Search/>
+        </div>
+        <div>
+          <Header/>
+        </div>
+        <div>
+          <Sidebar/>
+        </div>
+          <div>
+              <Container/>
+          </div>
+          <div>
+              <Container/>
+          </div>
+          <div>
+              <Container/>
+          </div>
+          <div>
+              <Container/>
+          </div>
+      </div>
+    );
+  };
+};
+
+
+export default App;
